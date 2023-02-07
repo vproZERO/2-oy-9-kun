@@ -3,6 +3,7 @@
     padding-bottom: 120px;
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 .hero__left-box{
     margin-left: 165px;
@@ -24,46 +25,32 @@
     color: #F67E7E;  
 }
 .hero__item{
-    max-width: 540px;
+    width: 540px;
     margin-bottom: 8px;
     display: flex;
 }
 .hero__item-text{
     margin-left: 23px;
     margin-top: 23px;
-    max-width: 445px;
+    max-width: 408px;
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
     color: #FFFFFF;  
 }
-.hero__right-box{
-    max-width: 542px;
-    margin-left: 150px;
-}
-.hero__minibox{
+.hero__name{
     max-width: 540px;
+    padding: 0 407px 17px 14px ;
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
     margin-bottom: 24px;
 }
-.hero__mini-title{
-    max-width: 445px;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 25px;
-    color: #FFFFFF;
-    opacity: 0.6;  
-    
-}
-.hero__span{
-    display: block;
-    margin-top: 16px;
-    border-bottom: 2px solid #FFFFFF;
-    width: 540px;
-}
-.span-end{
-    margin-top: 58px;
+.name2{
+    padding-bottom: 58px;
 }
 .hero__link{
+    display: block;
     max-width: 123px;
     padding: 9px 32px 11px 32px ;
     font-weight: 600;
@@ -76,104 +63,110 @@
 }
 @media only screen and (max-width:1280px){
     .hero__content{
-        padding-top: 112px;
         display: block;
     }
     .hero__left-box{
-        margin-left: 127px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .hero__tittle{
         max-width: 248px;
-        line-height: 56px;
-        margin: 0 115px;
         margin-bottom: 24px;
+        line-height: 56px;
+        margin-right: auto;
+        margin-left: auto; 
     }
     .hero__sup-tittle{
         max-width: 200px;
-        margin: 0 135px;
         margin-bottom: 24px;
-    }
-    .hero__navbar{
-        margin-bottom: 64px;
+        margin-right: auto;
+        margin-left: auto;  
     }
     .hero__item{
-        max-width: 515px;
+        width: 442px;
+        margin-right: auto;
+        margin-left: auto;
         margin-bottom: 8px;
         display: flex;
+        margin-bottom: 70px;
     }
-    .hero__item-text{
-        max-width: 420px;
-    }
-    .hero__right-box{
-        max-width: 542px;
-        margin-left: 113px;
-    }
-    .hero__minibox{
+    .hero__name{
+        display: block;
         max-width: 540px;
+        padding: 0 407px 17px 14px ;
+        background-color: inherit;
+        border: none;
+        border-bottom: 2px solid #FFFFFF;
         margin-bottom: 24px;
-    }  
-    
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .name2{
+        padding-bottom: 58px;
+    }
+    .hero__link{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 123px;
+        padding: 9px 32px 11px 32px ;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #004047;  
+        background: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        border-radius: 24px;  
+    }
 }
-@media only screen and (max-width:637px){
+@media only screen and (max-width:600px){
     .hero__content{
-        padding-top: 80px;
         display: block;
     }
     .hero__left-box{
         margin-left: 24px;
     }
     .hero__tittle{
-        max-width: 168px;
-        margin: 0;
-        margin-left: 77px;
+        max-width: 157px;
+        margin-right: auto;
+        margin-left: auto;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
         margin-bottom: 16px;
     }
     .hero__sup-tittle{
         max-width: 200px;
-        margin: 0;
-        margin-left: 87px;
+        margin-bottom: 32px;
+        margin-right: auto;
+        margin-left: auto;
         margin-bottom: 40px;
     }
     .hero__navbar{
-        margin: 0;
-        margin-left: 24px;
         margin-bottom: 56px;
     }
     .hero__item{
-        max-width: 327px;
-        margin-bottom: 24px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 327px;
+        margin-bottom: 8px;
         display: flex;
     }
     .hero__item-text{
         margin-left: 23px;
-        margin-top: 15px;
-        max-width: 232px;
+        margin-top: 23px;
+        max-width: 232px; 
     }
-    .hero__right-box{
+    .hero__name{
         max-width: 327px;
-        margin: 0;
-        margin-left: 24px;
-    }
-    .hero__minibox{
-        max-width: 540px;
-        margin-bottom: 24px;
-    }  
-    .hero__mini-title{
-        max-width: 114px;
-    }
-    .hero__span{
-        display: block;
-        margin-top: 16px;
+        padding: 0 197px 17px 14px ;
+        background-color: inherit;
+        border: none;
         border-bottom: 2px solid #FFFFFF;
-        width: 325px;
+        margin-bottom: 24px;
     }
-    .span-end{
-        margin-top: 58px;
+    .name2{
+        padding-bottom: 58px;
     }
-    .hero__link{
-        max-width: 123px;
-        padding: 9px 32px 11px 32px ;
-        margin: 0;
-        margin-left: 24px;
-    }
+
 }
